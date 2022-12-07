@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 mongoose.set('strictQuery', true);
-mongoose.connect("mongodb+srv://namfrans:RoxyNam081@firstclustler.jcmwvy5.mongodb.net/todoListDB", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://namfrans:<>@firstclustler.jcmwvy5.mongodb.net/todoListDB", {useNewUrlParser: true});
 
 const itemSchema = {
   name: {
